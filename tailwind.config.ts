@@ -27,6 +27,11 @@ const config: Config = {
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('autoprefixer'),
+    require('tailwindcss'),
+    require('postcss')
+  ],
 };
 export default config;
